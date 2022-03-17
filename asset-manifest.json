@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/not-a-real-store/static/css/main.05fd80bf.css",
-    "main.js": "/not-a-real-store/static/js/main.a0dbf27a.js",
+    "main.js": "/not-a-real-store/static/js/main.0fd1ae3c.js",
     "static/media/shoes.png": "/not-a-real-store/static/media/shoes.590043a706e261afe80f.png",
     "static/media/airjordan.png": "/not-a-real-store/static/media/airjordan.fcdaa2d8c1e8f2c86d12.png",
     "static/media/airforce.png": "/not-a-real-store/static/media/airforce.fd35268cf2959b919c7d.png",
     "index.html": "/not-a-real-store/index.html",
     "main.05fd80bf.css.map": "/not-a-real-store/static/css/main.05fd80bf.css.map",
-    "main.a0dbf27a.js.map": "/not-a-real-store/static/js/main.a0dbf27a.js.map"
+    "main.0fd1ae3c.js.map": "/not-a-real-store/static/js/main.0fd1ae3c.js.map"
   },
   "entrypoints": [
     "static/css/main.05fd80bf.css",
-    "static/js/main.a0dbf27a.js"
+    "static/js/main.0fd1ae3c.js"
   ]
 }
