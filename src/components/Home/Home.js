@@ -10,7 +10,8 @@ const Home = (props) => {
 
   return (
     <div className={classes.container}>
-      <div className={classes["row-1"]}>
+      <div className={classes["row"]}>
+        {/* first column */}
         <div className={classes["col-1"]}>
           <h1 className={classes["article-title"]}> Not a real store</h1>
           <p className={classes["para-height"]}>
@@ -25,11 +26,13 @@ const Home = (props) => {
             {" "}
             Shop Now{" "}
             <span>
-              <CaretRight size={16} />{" "}
+              <CaretRight size={12} />{" "}
             </span>{" "}
           </h4>
+          {/* row with two products */}
           {products ? (
-            <div className={classes["row-2"]}>
+            <div className={classes["products-row"]}>
+              {/* first sneaker */}
               <div className={classes["images-col-1-container"]}>
                 <div className={classes["second-image-col-1"]}>
                   <img src={airforce} alt="a" />
@@ -51,7 +54,7 @@ const Home = (props) => {
                   </div>
                 </div>
               </div>
-
+              {/* second sneaker */}
               <div className={classes["images-col-1-container"]}>
                 <div className={classes["second-image-col-1"]}>
                   <img src={airjordan} alt="a" />
@@ -75,33 +78,39 @@ const Home = (props) => {
               </div>
             </div>
           ) : (
-            <div> Try something else </div>
+            <div> No products today </div>
           )}
-          <div className={classes["horisontal-bare-first"]}> </div>
+          <div className={classes["horisontal-bar-first"]}> </div>
         </div>
 
-        <div className={classes["col-2"]}>
-          <div className={classes["first-image-col-2"]}>
+        <div className={classes["col-2"]}> 
+        <div className={classes["vertical-bar-1"]}> </div>
+        <div className={classes["vertical-bar-2"]}> </div>
+        </div>
+
+        {/* second column */}
+        <div className={classes["col-3"]}>
+          <div className={classes["first-image-col-3"]}>
             <div className={classes["black-div-1"]}> </div>
             <div className={classes["black-div-2"]}> </div>
             <div className={classes["black-div-3"]}> </div>
             <img src={airforce} alt="a" className={classes["rotate-image"]} />
           </div>
-          <div className={classes["second-image-col-2"]}>
+          <div className={classes["second-image-col-3"]}>
             <img src={shoes} alt="a" className={classes["shoes-image"]} />{" "}
             <div className={classes["see-editorial-btn"]}>
               {" "}
               <span>See our editorial </span>
               <span>
-                <CaretRight size={14} />{" "}
+                <CaretRight size={12} />{" "}
               </span>{" "}
             </div>
-            <div className={classes["horisontal-bare-second"]}> </div>
+            <div className={classes["horisontal-bar-second"]}> </div>
           </div>
         </div>
       </div>
 
-      <div className={classes["vertical-bare"]}> </div>
+      
     </div>
   );
 };

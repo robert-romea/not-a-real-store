@@ -2,7 +2,7 @@
 
 .container {
   margin-top: 72px;
-  width: 67.75rem;  /*=1084px */
+  width: 67.75rem; /*=1084px */
   height: 41rem;
   display: flex;
   min-height: 100%;
@@ -22,6 +22,7 @@
   margin-bottom: 26px;
   font-size: 18px;
   color: #c9c7db;
+  margin-bottom: 0 !important;
 }
 .shop-title {
   margin-bottom: 72px;
@@ -31,26 +32,28 @@
   letter-spacing: 0px;
   color: #6e63f8;
   cursor: pointer;
+  margin-top: 30px;
 }
 .shop-title span {
   margin-left: 3px;
 }
 
-.row-1 {
+.row {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
-  width: 67.75rem;  /*=1084px */
+  width: 67.75rem; /*=1084px */
 }
 
-.row-2 {
+.products-row {
   display: flex;
   flex-direction: row;
 }
 
+/* first column */
+
 .col-1 {
-  width: 37.5rem;
-  flex-basis: 55%;
+  flex-basis: 50%;
   /* border-right: 3mm ridge rgba(108, 97, 202, 0.6); */
   /* border-right: 1px solid #c9c7db; */
   /* border-bottom: 1px solid black; */
@@ -111,15 +114,40 @@
   display: block;
 }
 
+
 /* second column */
-.col-2 {
-  width: 37.5rem;
-  flex-basis: 45%;
+
+.col-2{
+  flex-basis: 7%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.vertical-bar-1 {
+  height: 383px;
+  width: 2px;
+  background-color: #c9c7db;
+  margin-bottom: 70px;
+}
+.vertical-bar-2 {
+  height: 68px;
+  width: 2px;
+  background-color: #c9c7db;
+  margin-bottom: 95px;
+}
+
+
+/* third column */
+.col-3 {
+  flex-basis: 43%;
   display: block;
 }
 
+
 /* first image */
-.first-image-col-2 {
+.first-image-col-3 {
   height: 242px;
   width: 440px;
 
@@ -157,7 +185,7 @@
 }
 
 /* second image */
-.second-image-col-2 {
+.second-image-col-3 {
   height: 209px;
   width: 440px;
 
@@ -181,26 +209,23 @@
   font-size: 18px;
   margin-bottom: 72px;
   cursor: pointer;
+  font: normal normal bold 18px/23px Outfit;
+  letter-spacing: 0px;
+  color: #262626;
 }
 
-.horisontal-bare-first {
+.horisontal-bar-first {
   height: 2px;
   width: 532px;
   background-color: #c9c7db;
   margin-top: 72px;
 }
 
-.horisontal-bare-second {
+.horisontal-bar-second {
   height: 2px;
   width: 440px;
   background-color: #c9c7db;
 }
 
-/* .vertical-bare {
-  height: 415px;
-  width: 2px;
-  background-color: #c9c7db;
-  position: fixed;
-  right: 47%;
-  left: 53%;
-} */
+
+
