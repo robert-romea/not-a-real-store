@@ -1,0 +1,19 @@
+{
+    "products": [
+        {
+           "id": 1,
+           "brand": "Nike",
+           "model": "Air Force 1",
+           "price": 90,
+           "image":"./src/images/airforce.png"
+        },
+        {
+           "id": 2,
+           "brand": "Nike",
+           "model": "Air Jordan 1",
+           "price": 150,
+           "image":"./src/images/airjordan.png"
+        }
+       
+    ]
+}
