@@ -26,9 +26,10 @@ const Product = (props) => {
               <span className={classes["brand-style"]}>
                 {products.products[id - 1]?.brand}{" "}
               </span>
-              <span 
-              className={classes["model-style"]}
-              > {products.products[id - 1]?.model}</span>
+              <span className={classes["model-style"]}>
+                {" "}
+                {products.products[id - 1]?.model}
+              </span>
             </div>
             <div>
               <span style={{ color: "#6E63F8" }}>

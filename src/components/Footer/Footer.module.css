@@ -10,7 +10,7 @@
 
 .footer-size {
   display: flex;
-  width: 75rem;
+  width: 67.75rem;  /*=1084px */
   justify-content: space-between;
 }
 .left-elements {

@@ -11,3 +11,11 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById("root")
 );
+
+
+// deploy stuffs
+
+// scripts: 
+// "predeploy": "npm run build",
+//     "deploy": "gh-pages -d build",
+//"homepage": "https://robert-romea.github.io/not-a-real-store",

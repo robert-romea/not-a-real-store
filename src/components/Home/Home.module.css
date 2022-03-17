@@ -2,7 +2,7 @@
 
 .container {
   margin-top: 72px;
-  width: 75rem;
+  width: 67.75rem;  /*=1084px */
   height: 41rem;
   display: flex;
   min-height: 100%;
@@ -40,6 +40,7 @@
   display: flex;
   justify-content: space-between;
   flex-direction: row;
+  width: 67.75rem;  /*=1084px */
 }
 
 .row-2 {

@@ -2,7 +2,11 @@
 
 .app {
   margin: 0 auto;
-  width: 75rem;
+   width: 67.75rem;  /*=1084px */
+}
+
+.main {
+  width: 67.75rem;  /*=1084px */
 }
 
 body {
