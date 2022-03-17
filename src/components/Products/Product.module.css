@@ -1,0 +1,43 @@
+.images-col-1-container {
+  width: 256px;
+  height: calc(209px+12px+23px);
+  cursor: pointer;
+}
+
+.first-image-col-1 {
+  width: 256px;
+  height: 209px;
+  border: 2px solid #c9c7db;
+}
+.first-image-col-1 img {
+  width: 173px;
+  height: 130px;
+  margin: auto;
+  margin-top: 20px;
+  display: block;
+}
+
+.shoes-price:last-child {
+  align-self: right;
+}
+
+.shoes-price {
+  display: flex;
+  justify-content: space-around;
+  font-size: 18px;
+  padding-top: 13px;
+  font: normal normal bold 18px/23px Outfit;
+}
+
+.model-style {
+  font-size: 18px;
+  font-weight: 400;
+  font: normal normal bold 18px/23px Outfit;
+  color: #262626;
+}
+
+.brand-style {
+  color: #c9c7db;
+  font-size: 18px;
+  font-weight: 600;
+}

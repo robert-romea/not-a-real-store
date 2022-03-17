@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Outfit:wght@300&family=Roboto:wght@100&display=swap");
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 72px;
+}
+
+.btn-1 {
+  background-color: #262626;
+  color: white;
+  padding: 13px 71px;
+  font-size: 20px;
+  font: normal normal normal 20px/25px Outfit;
+  letter-spacing: 0px;
+  cursor: pointer;
+}
+.btn-2 {
+  color: #c9c7db;
+  padding: 13px 84px;
+  font-size: 20px;
+  font: normal normal normal 20px/25px Outfit;
+  letter-spacing: 0px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 2px solid #c9c7db;
+  cursor: pointer;
+}
+
+.btn-3 {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 2px solid #c9c7db;
+  color: #c9c7db;
+  padding: 13px 147px;
+  font-size: 20px;
+  font: normal normal normal 20px/25px Outfit;
+  letter-spacing: 0px;
+  cursor: pointer;
+}
+
+.products {
+  margin-bottom: 72px;
+}
+.aligned-products {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 30px;
+  margin-bottom: 72px;
+}
+
+.margin-right {
+  margin-right: 59px;
+}
+
+.flex-bare {
+  display: flex;
+  justify-content: space-between;
+}
+
+.horisontal-bare-first {
+  height: 2px;
+  width: 532px;
+  background-color: #c9c7db;
+}
+
+.horisontal-bare-second {
+  height: 2px;
+  width: 440px;
+  background-color: #c9c7db;
+}

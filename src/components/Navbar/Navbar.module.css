@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Outfit:wght@300&family=Roboto:wght@100&display=swap");
+
+.logo-name {
+  color: #6e63f8;
+  font-size: 25px;
+  font: normal normal bold 25px/31px Outfit;
+  cursor: pointer;
+  letter-spacing: 0px;
+  font-weight: 600;
+}
+
+.navbar {
+  width: 100%;
+  margin: 72px 0;
+  height: 31px; /* Height of the footer */
+  /* background: #6cf; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar-size {
+  display: flex;
+  width: 75rem;
+  justify-content: space-between;
+}
+.right-elements {
+  font: normal normal normal 20px Outfit;
+  letter-spacing: 0px;
+  color: #c9c7db;
+}
+
+.navbar-link {
+  margin-left: 40px;
+  font-size: 20px;
+  font: normal normal normal 20px/25px Outfit;
+  letter-spacing: 0px;
+  color: #c9c7db;
+}
+
+.navbar-link:active {
+  color: #262626;
+  font-weight: 600;
+  text-decoration: underline #262626 2px;
+}
+.navbar-link:focus {
+  color: #262626;
+  font-weight: 600;
+  text-decoration: underline #262626 2px;
+}
+
