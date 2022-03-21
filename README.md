@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Store project design (React)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Adobe XD design: https://xd.adobe.com/view/c7e61ad8-42d7-4ff2-a92a-8d9feeee1b1b-92b5/
 
 ## Available Scripts
 
